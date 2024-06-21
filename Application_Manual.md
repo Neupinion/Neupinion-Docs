@@ -42,16 +42,6 @@ npm install -g expo-cli
 ## 환경 변수 파일 추가
 - github security를 Application 레포지터리에는 적용하지 않았기 때문에, 보안 주요사항이 작성되어있는 .env파일을 Neupinion-App의 root 경로에 추가해야합니다.
 ![img.png](assets/env.png)
-- .env 파일의 내부의 내용은 다음과 같습니다.
-```bash
-API_URL=https://dev.neupinion.com
-PROJECT_ID=da56e85c-6989-4662-880b-a34f24c3ad96
-UPDATES_URL=https://u.expo.dev/da56e85c-6989-4662-880b-a34f24c3ad96
-GOOGLE_CLIENT_ID=232899368204-4ksi7g0r97om8pdu08n3khsqja2dkti9.apps.googleusercontent.com
-GOOGLE_REDIRECT_URI=https://dev.neupinion.com/login/google
-```
-
-- 해당 env파일은, 외부 유출에 민감하기 때문에, 유의해주시면 감사하겠습니다.
 
 ## 실행 방법
 
