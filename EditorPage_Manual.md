@@ -1,6 +1,6 @@
 ## 설치 및 실행
 
-1. https://github.com/Neupinion/neupinion-admin.git 레포지토리 포크
+1. https://github.com/Neupinion/neupinion-admin.git 레포지토리 clone
 2. `npm install` 로 필요한 패키지 설치
 3. `npm start` 로 실행
 
